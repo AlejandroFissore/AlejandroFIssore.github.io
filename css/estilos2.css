@@ -1,0 +1,95 @@
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+img.perfil {
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    border-style: double;
+    border-color: #383838;
+}
+
+img.img_lateral{
+display: block;
+width: 100%;
+max-width: 400px;
+margin-left: auto;
+margin-right: auto;
+}
+
+img.galeria {      
+    height: 300px;
+    max-width: 100%;
+    border-style: double;
+    border-color: #383838;
+}
+.galeria {
+    text-align: center;
+}
+#encabezado {
+    background-image: url("../img/Mascaras2022-15.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #111111;
+    padding: 10%;
+    color: white;
+    text-align: center;
+}
+
+#sobre_mi {
+    padding: 10%;
+    width: 100%;
+}
+
+#experiencia {
+    background-color: #111111;
+    padding: 10%;
+    color: white;
+    width: 100%;
+}
+
+#multimedia {
+    padding: 10%;
+}
+#contacto {
+    background-color: #111111;
+    padding: 10%;
+    color: white;
+}
+.lista {
+    text-align: justify;
+}
+
+.redes_sociales {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor-icono svg {
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+    color: aliceblue;
+}
