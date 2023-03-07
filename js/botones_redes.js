@@ -1,10 +1,11 @@
 
 /**Botón de instagram */
 let instagram = document.getElementById('instagram');
-let defaultColor = instagram.style.color
+let defaultColor = instagram.style.color;
 
 instagram.onmouseenter = function (e) {
     e.target.style.color = '#6610f2';
+    instagram.style.transitionDuration = '750ms'
 }
 
 instagram.onmouseleave = function (e) {
@@ -17,6 +18,7 @@ let defaultColor1 = facebook.style.color
 
 facebook.onmouseenter = function (e) {
     e.target.style.color = '#0d6efd';
+    facebook.style.transitionDuration = '750ms'
 }
 
 facebook.onmouseleave = function (e) {
@@ -29,6 +31,7 @@ let defaultColor2 = youtube.style.color
 
 youtube.onmouseenter = function (e) {
     e.target.style.color = '#dc3545';
+    youtube.style.transitionDuration = '750ms'
 }
 
 youtube.onmouseleave = function (e) {

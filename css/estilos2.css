@@ -27,23 +27,25 @@ img.perfil {
     border-color: #383838;
 }
 
-img.img_lateral{
-display: block;
-width: 100%;
-max-width: 400px;
-margin-left: auto;
-margin-right: auto;
+img.img_lateral {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-img.galeria {      
+img.galeria {
     height: 300px;
     max-width: 100%;
     border-style: double;
     border-color: #383838;
 }
+
 .galeria {
     text-align: center;
 }
+
 #encabezado {
     background-image: url("../img/Mascaras2022-15.JPG");
     background-repeat: no-repeat;
@@ -70,11 +72,13 @@ img.galeria {
 #multimedia {
     padding: 10%;
 }
+
 #contacto {
     background-color: #111111;
     padding: 10%;
     color: white;
 }
+
 .lista {
     text-align: justify;
 }
@@ -91,6 +95,5 @@ img.galeria {
     width: 30px;
     height: 30px;
     margin: 20px;
-    color: #c9c9c9;
-    
+    color: #ffffff;
 }
